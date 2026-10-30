@@ -1,5 +1,9 @@
 <p align="center">
-  <img src="assets/hands.png" alt="Monochrome ASCII hands reaching through a computer window" width="100%" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/hands.png" />
+    <source media="(prefers-color-scheme: light)" srcset="assets/hands-light.svg" />
+    <img src="assets/hands-light.svg" alt="Monochrome ASCII hands reaching through a computer window" width="100%" />
+  </picture>
 </p>
 
 <h1 align="center">Hi <img src="assets/emoji/wave.svg" width="24" height="24" alt="" />, I'm Soham</h1>
@@ -7,7 +11,11 @@
 <h3 align="center">Full Stack Developer</h3>
 
 <p align="center">
-  <img src="assets/typing.svg" alt="Build. Debug. Repeat. Turning ideas into web applications." width="700" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/typing.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="assets/typing-light.svg" />
+    <img src="assets/typing-light.svg" alt="Build. Debug. Repeat. Turning ideas into web applications." width="700" />
+  </picture>
 </p>
 
 <p align="center">Building web applications with React, Next.js, and Node.js.</p>
